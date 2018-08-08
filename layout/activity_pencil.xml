@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/rt"
+    tools:context=".Pencil">
+
+
+    <Button
+        android:background="@android:color/transparent"
+        android:text="PENCIL"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+
+    <ImageButton
+        style="@style/tx_pen"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:background="@drawable/lapiz"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:id="@+id/iv_pen"
+        />
+
+
+    <Button
+
+        style="@style/tx_pen1"
+        android:id="@+id/bt_pen1"
+        android:text="@string/next"
+        android:background="@drawable/shape_green"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+
+        />
+
+
+
+    <Button
+        android:id="@+id/bt_pen2"
+        style="@style/tx_pen2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/shape_green"
+        android:text="return"
+        android:layout_marginTop="9dp"
+        />
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SocialNetworks">
+
+
+    <Button
+        android:id="@+id/btnFb"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="470dp"
+        android:background="@drawable/face"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="14dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <Button
+        android:id="@+id/btnyoutube"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_below="@+id/btnFb"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="470dp"
+        android:background="@drawable/you"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="12dp"
+        tools:layout_editor_absoluteY="111dp" />
+
+    <Button
+        android:id="@+id/btninsta"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_below="@+id/btnyoutube"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="470dp"
+        android:background="@drawable/insta"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="12dp"
+        tools:layout_editor_absoluteY="111dp" />
+
+
+
+</LinearLayout>
